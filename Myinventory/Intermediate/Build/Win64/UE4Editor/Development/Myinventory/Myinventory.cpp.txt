@@ -1,0 +1,2 @@
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Development\Myinventory\Definitions.Myinventory.h
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory\Myinventory.h

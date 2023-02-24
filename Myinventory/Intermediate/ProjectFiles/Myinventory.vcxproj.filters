@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Myinventory.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{64558D15-F150-484B-84DA-02C6E85C00FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Myinventory.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyinventoryEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{991EF2ED-B485-4ECC-B9D7-A93CC2D7F9BF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Myinventory">
+      <UniqueIdentifier>{688C49EC-B232-4699-952B-1C153DB856D4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Myinventory\Myinventory.Build.cs">
+      <Filter>Source\Myinventory</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Myinventory\Myinventory.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\Myinventory.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Myinventory\MyinventoryCharacter.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\MyinventoryCharacter.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Myinventory\MyinventoryGameMode.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\MyinventoryGameMode.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

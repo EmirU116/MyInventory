@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Myinventory",
+			"Path": "D:\\UnrealProject\\SchoolProject\\InventoryProjectC++\\MyInventory\\MyInventory\\Myinventory\\Source\\Myinventory.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyinventoryEditor",
+			"Path": "D:\\UnrealProject\\SchoolProject\\InventoryProjectC++\\MyInventory\\MyInventory\\Myinventory\\Source\\MyinventoryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

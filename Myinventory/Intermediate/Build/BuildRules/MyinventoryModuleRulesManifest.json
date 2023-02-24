@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealProject\\SchoolProject\\InventoryProjectC++\\MyInventory\\MyInventory\\Myinventory\\Source\\Myinventory\\Myinventory.Build.cs",
+		"D:\\UnrealProject\\SchoolProject\\InventoryProjectC++\\MyInventory\\MyInventory\\Myinventory\\Source\\Myinventory.Target.cs",
+		"D:\\UnrealProject\\SchoolProject\\InventoryProjectC++\\MyInventory\\MyInventory\\Myinventory\\Source\\MyinventoryEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
