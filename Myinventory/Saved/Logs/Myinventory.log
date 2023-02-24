@@ -892,3 +892,171 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.24-16.14.57:673][  1]LogAssetRegistry: Asset discovery search completed in 75.2821 seconds
 [2023.02.24-16.14.57:870][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.003764 seconds (updated 0 objects)
 [2023.02.24-16.14.58:597][  2]LogSlate: Took 0.016069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.24-16.15.52:837][396]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.24-16.15.52:941][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.24-16.15.52:966][396]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 24, 2023, 6:15:52 PM)
+[2023.02.24-16.15.53:063][396]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.02.24-16.15.53:067][396]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.24-16.15.53:123][396]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.24-16.15.53:217][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093983s)
+[2023.02.24-16.15.53:242][396]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.02.24-16.15.53:263][396]LogPlayLevel: PIE: World Init took: (0.036546s)
+[2023.02.24-16.15.53:277][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.153475s)
+[2023.02.24-16.15.53:287][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.24-16.15.53:311][396]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.24-16.15.53:311][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.24-16.15.53:311][396]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.24-16.15.53:311][396]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.24-16.15.53:311][396]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.24-16.15.53:311][396]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.24-16.15.53:315][396]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.24-16.15.53:315][396]LogAudioMixer: Display: 1: FrontRight
+[2023.02.24-16.15.53:341][396]LogAudioMixer: Display: Using Audio Device Hörlurar (Galaxy Buds (A71C))
+[2023.02.24-16.15.53:341][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.24-16.15.53:341][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.24-16.15.53:342][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.24-16.15.53:342][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.24-16.15.53:342][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.24-16.15.53:342][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.24-16.15.53:343][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.24-16.15.53:343][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.24-16.15.53:343][396]LogInit: FAudioDevice initialized.
+[2023.02.24-16.15.53:343][396]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2023.02.24-16.15.53:464][396]LogLoad: Game class is 'MyinventoryGameMode'
+[2023.02.24-16.15.53:632][396]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.02.24-17.15.53
+[2023.02.24-16.15.53:677][396]LogWorld: Bringing up level for play took: 0.055990
+[2023.02.24-16.15.53:721][396]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2023.02.24-16.15.54:165][396]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.02.24-16.15.54:231][396]PIE: Server logged in
+[2023.02.24-16.15.54:273][396]PIE: Play in editor total start time 1.404 seconds.
+[2023.02.24-16.15.55:444][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-16.15.55:444][433]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.24-16.15.55:516][433]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.24-16.15.55:537][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-16.15.55:606][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.24-16.15.55:621][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-16.15.55:645][433]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.24-16.15.55:724][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.24-16.15.55:727][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.24-16.15.55:744][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-16.15.55:867][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.24-16.15.55:918][434]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.02.24-16.15.57:430][519]Cmd: SELECT NONE
+[2023.02.24-16.16.05:445][757]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.02.24-16.16.25:776][852]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.24-16.16.25:783][852]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.24-16.16.26:882][894]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.24-16.16.26:969][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.02.24-16.16.27:585][894]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMapCEB092DD4361CAB3EE973CB019C705D9.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.02.24-16.16.28:153][894]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMap_BuiltDataBF93DDE94D57B5C35188C6AEA07F9957.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.02.24-16.16.28:193][894]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.24-16.16.28:205][894]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.02.24-16.16.28:205][894]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.02.24-16.16.29:293][957]LogTemp: Repeating last play command: Selected Viewport
+[2023.02.24-16.16.29:340][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.24-16.16.29:341][957]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 24, 2023, 6:16:29 PM)
+[2023.02.24-16.16.29:341][957]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.24-16.16.29:350][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009883s)
+[2023.02.24-16.16.29:351][957]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.02.24-16.16.29:422][957]LogPlayLevel: PIE: World Init took: (0.072276s)
+[2023.02.24-16.16.29:422][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.082295s)
+[2023.02.24-16.16.29:436][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.02.24-16.16.29:436][957]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.02.24-16.16.29:436][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.24-16.16.29:436][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.24-16.16.29:437][957]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.24-16.16.29:437][957]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.24-16.16.29:437][957]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.24-16.16.29:437][957]LogAudioMixer: Display: Initializing audio mixer.
+[2023.02.24-16.16.29:440][957]LogAudioMixer: Display: 0: FrontLeft
+[2023.02.24-16.16.29:440][957]LogAudioMixer: Display: 1: FrontRight
+[2023.02.24-16.16.29:463][957]LogAudioMixer: Display: Using Audio Device Hörlurar (Galaxy Buds (A71C))
+[2023.02.24-16.16.29:463][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.24-16.16.29:463][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.24-16.16.29:463][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.24-16.16.29:463][957]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.02.24-16.16.29:464][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.02.24-16.16.29:464][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.02.24-16.16.29:465][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.02.24-16.16.29:465][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.02.24-16.16.29:465][957]LogInit: FAudioDevice initialized.
+[2023.02.24-16.16.29:465][957]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2023.02.24-16.16.29:511][957]LogLoad: Game class is 'MyinventoryGameMode'
+[2023.02.24-16.16.29:512][957]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.02.24-17.16.29
+[2023.02.24-16.16.29:512][957]LogWorld: Bringing up level for play took: 0.001305
+[2023.02.24-16.16.29:513][957]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2023.02.24-16.16.29:514][957]PIE: Server logged in
+[2023.02.24-16.16.29:515][957]PIE: Play in editor total start time 0.176 seconds.
+[2023.02.24-16.16.30:428][  9]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.30:560][ 17]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.30:728][ 27]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.30:876][ 36]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.31:044][ 46]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.31:226][ 57]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.32:903][113]LogSlate: Took 0.015112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.02.24-16.16.33:577][147]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.33:743][157]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.33:893][166]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.34:060][176]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.34:578][207]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.34:779][219]LogTemp: Warning: This actor got hit: Floor
+[2023.02.24-16.16.35:597][263]LogTemp: Warning: This actor got hit: LeftArm_StaticMesh
+[2023.02.24-16.16.35:670][268]LogTemp: Warning: This actor got hit: LeftArm_StaticMesh
+[2023.02.24-16.16.35:839][278]LogTemp: Warning: This actor got hit: LeftArm_StaticMesh
+[2023.02.24-16.16.36:421][313]LogTemp: Warning: This actor got hit: 1M_Cube_Chamfer_2
+[2023.02.24-16.16.36:571][322]LogTemp: Warning: This actor got hit: 1M_Cube_Chamfer_2
+[2023.02.24-16.16.37:188][359]LogTemp: Warning: This actor got hit: 1M_Cube_Chamfer_2
+[2023.02.24-16.16.37:321][367]LogTemp: Warning: This actor got hit: 1M_Cube_Chamfer_2
+[2023.02.24-16.16.38:036][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-16.16.38:036][408]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.24-16.16.38:036][408]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.24-16.16.38:036][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-16.16.38:045][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.24-16.16.38:047][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-16.16.38:052][408]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.24-16.16.38:052][408]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.24-16.16.38:053][408]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.02.24-16.16.38:056][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-16.16.38:058][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.24-16.16.38:108][410]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.02.24-16.16.44:930][759]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.02.24-16.16.44:953][759]LogContentBrowser: Creating deferred item: NewFolder
+[2023.02.24-16.16.48:046][940]LogContentBrowser: Attempting asset rename: NewFolder -> Widget
+[2023.02.24-16.16.48:111][940]LogContentBrowser: End creating deferred item NewFolder
+[2023.02.24-16.16.51:872][146]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.02.24-16.16.51:881][146]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.02.24-16.16.57:512][478]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_Crosshair
+[2023.02.24-16.16.57:672][478]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.02.24-16.16.58:002][494]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/UI_Crosshair.UI_Crosshair
+[2023.02.24-16.16.59:274][494]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.02.24-16.17.03:321][494]LogSlate: Took 0.012236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.24-16.17.05:917][602]LogSlate: Window 'UI_Crosshair' being destroyed
+[2023.02.24-16.17.07:648][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2023.02.24-16.17.08:064][689]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMap00221B044C221F3A2E6E8F80FC14C0F8.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.02.24-16.17.08:289][689]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMap_BuiltDataCF5B55384D7D1C9E4D1BF6995A663117.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.02.24-16.17.08:303][689]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.24-16.17.08:303][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.02.24-16.17.08:303][689]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.02.24-16.17.15:510][815]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/UI_Crosshair4460807548464B2BF0E5F2A4CFBDC053.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/Widget/UI_Crosshair.uasset'
+[2023.02.24-16.17.15:552][815]AssetCheck: New page: Asset Save: UI_Crosshair
+[2023.02.24-16.17.15:552][815]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_Crosshair.UI_Crosshair
+[2023.02.24-16.17.17:032][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.02.24-16.17.17:453][892]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMap090DC03E440C2C4925F143A018A525A9.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.02.24-16.17.17:755][892]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Saved/ThirdPersonExampleMap_BuiltData396D923541332B2AA70F7DB8A1923EBC.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.02.24-16.17.17:770][892]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.24-16.17.17:770][892]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.02.24-16.17.17:770][892]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.02.24-16.17.20:275][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
