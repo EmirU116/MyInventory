@@ -43,12 +43,9 @@ AMyinventoryCharacter::AMyinventoryCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
-	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
 
-//////////////////////////////////////////////////////////////////////////
-// Input
+
 
 void AMyinventoryCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
@@ -57,6 +54,8 @@ void AMyinventoryCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, AMyinventoryCharacter::Interact);
+	
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMyinventoryCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMyinventoryCharacter::MoveRight);
 
@@ -67,35 +66,23 @@ void AMyinventoryCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("TurnRate", this, &AMyinventoryCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AMyinventoryCharacter::LookUpAtRate);
-
-	// handle touch devices
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &AMyinventoryCharacter::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &AMyinventoryCharacter::TouchStopped);
-
-	// VR headset functionality
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AMyinventoryCharacter::OnResetVR);
 }
-
-
-void AMyinventoryCharacter::OnResetVR()
+void AMyinventoryCharacter::Interact()
 {
-	// If Myinventory is added to a project via 'Add Feature' in the Unreal Editor the dependency on HeadMountedDisplay in Myinventory.Build.cs is not automatically propagated
-	// and a linker error will result.
-	// You will need to either:
-	//		Add "HeadMountedDisplay" to [YourProject].Build.cs PublicDependencyModuleNames in order to build successfully (appropriate if supporting VR).
-	// or:
-	//		Comment or delete the call to ResetOrientationAndPosition below (appropriate if not supporting VR)
-	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
-}
+	//creating line trace. I believe this is for 
+	FVector start = FollowCamera->GetComponentLocation();
+	FVector end = start + FollowCamera->GetForwardVector() * 500.0f;
 
-void AMyinventoryCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
-{
-		Jump();
-}
-
-void AMyinventoryCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
-{
-		StopJumping();
+	FHitResult hitResult;
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+	if (GetWorld()->LineTraceSingleByChannel(hitResult,start,end,ECC_Visibility, Params))
+	{
+		if (AActor* Actor = hitResult.GetActor())
+		{
+			UE_LOG(LogTemp, Warning,TEXT("This actor got hit: %s"), *Actor->GetName());
+		}
+	}
 }
 
 void AMyinventoryCharacter::TurnAtRate(float Rate)
@@ -109,6 +96,7 @@ void AMyinventoryCharacter::LookUpAtRate(float Rate)
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
+
 
 void AMyinventoryCharacter::MoveForward(float Value)
 {
