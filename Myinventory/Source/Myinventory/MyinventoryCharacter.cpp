@@ -54,7 +54,7 @@ void AMyinventoryCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, AMyinventoryCharacter::Interact);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AMyinventoryCharacter::Interact);
 	
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMyinventoryCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMyinventoryCharacter::MoveRight);
