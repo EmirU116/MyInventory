@@ -2,6 +2,7 @@
 
 #include "MyinventoryCharacter.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
+#include "Myinventory/Public/Actors/Item.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -78,9 +79,9 @@ void AMyinventoryCharacter::Interact()
 	Params.AddIgnoredActor(this);
 	if (GetWorld()->LineTraceSingleByChannel(hitResult,start,end,ECC_Visibility, Params))
 	{
-		if (AActor* Actor = hitResult.GetActor())
+		if (IInteractableInterface* Interface = Cast<IInteractableInterface>(hitResult.GetActor()))
 		{
-			UE_LOG(LogTemp, Warning,TEXT("This actor got hit: %s"), *Actor->GetName());
+			Interface->Interact();
 		}
 	}
 }
