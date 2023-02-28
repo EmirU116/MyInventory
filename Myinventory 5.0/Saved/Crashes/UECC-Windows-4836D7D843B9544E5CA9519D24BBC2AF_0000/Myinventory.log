@@ -1099,39 +1099,3 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.28-19.37.59:362][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
 [2023.02.28-19.46.12:888][958]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Item.BP_Item
 [2023.02.28-19.46.12:949][958]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2023.02.28-19.46.32:912][958]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
-[2023.02.28-19.46.32:912][958]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [9638ms] waiting for h/w. InstanceID=1
-[2023.02.28-19.46.32:912][958]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.042043s
-[2023.02.28-19.46.34:015][958]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002192s (3.492360s overbudget)
-[2023.02.28-19.46.34:105][958]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14368
-[2023.02.28-19.46.34:105][958]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{72995fbb-451c-44b9-8b49-cc62fa3c31e8}, Name=Hörlurar (Galaxy Buds (A71C))), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=28.99
-[2023.02.28-19.46.34:130][958]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
-[2023.02.28-19.46.34:827][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
-[2023.02.28-19.46.37:801][ 93]LogSlate: Window 'BP_Item' being destroyed
-[2023.02.28-19.46.38:038][ 93]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2023.02.28-19.46.38:038][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.02.28-19.46.38:745][ 93]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Item.BP_Item
-[2023.02.28-19.46.38:746][ 93]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2023.02.28-19.46.39:386][ 93]LogBlueprintEditor: Perf: 0.4 total seconds to load all 6 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
-[2023.02.28-19.46.39:386][ 93]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary
-[2023.02.28-19.46.42:012][ 93]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
-[2023.02.28-19.46.42:012][ 93]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001248s (1.266372s overbudget)
-[2023.02.28-19.46.42:881][ 93]LogSlate: Took 0.032416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.02.28-19.46.52:974][417]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.02.28-20.37.41:684][ 21]LogDerivedDataCache: C:/Users/acer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.926 and deleted 0 file(s) with total size 0 MiB.
-[2023.02.28-21.34.19:962][214]LogSlate: Window 'BP_Item' being destroyed
-[2023.02.28-21.34.20:038][214]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2023.02.28-21.34.20:038][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.02.28-21.34.25:989][487]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
-[2023.02.28-21.34.27:496][487]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
-[2023.02.28-21.34.27:564][487]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
-[2023.02.28-21.34.27:583][487]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
-[2023.02.28-21.34.27:624][488]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
-[2023.02.28-21.34.36:583][ 17]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_InventoryItem
-[2023.02.28-21.34.36:689][ 17]LogContentBrowser: End creating deferred item NewWidgetBlueprint
-[2023.02.28-21.34.39:683][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
-[2023.02.28-21.34.40:498][192]LogSlate: Window 'Save Content' being destroyed
-[2023.02.28-21.34.40:693][192]LogSavePackage: Moving output files for package: /Game/Widget/UI_InventoryItem
-[2023.02.28-21.34.40:693][192]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem4AFFE2F149997F783659EB85027B175B.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
-[2023.02.28-21.34.40:710][192]AssetCheck: New page: Asset Save: UI_InventoryItem
-[2023.02.28-21.34.40:710][192]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
