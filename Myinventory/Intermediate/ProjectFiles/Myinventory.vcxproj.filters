@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Myinventory.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9E92618E-A354-4EAD-B98B-ADEDE7C97FAD}</UniqueIdentifier>
+      <UniqueIdentifier>{EB2C3413-C004-4DB0-9F64-96DCACDAD6EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Myinventory.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{82E73E41-1CBF-4BC3-9DAB-F9EFE7407980}</UniqueIdentifier>
+      <UniqueIdentifier>{24C2195F-9BD7-4C46-B825-294ECEE59CD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Myinventory">
-      <UniqueIdentifier>{861C5537-20B0-4815-9740-72729B810DA4}</UniqueIdentifier>
+      <UniqueIdentifier>{044E57F4-D6CC-41A1-B9D3-395F63B9CE44}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Myinventory\Myinventory.Build.cs">
       <Filter>Source\Myinventory</Filter>
@@ -54,25 +54,28 @@
       <Filter>Source\Myinventory</Filter>
     </ClInclude>
     <Filter Include="Source\Myinventory\Public">
-      <UniqueIdentifier>{6D75CA52-5F7D-4899-BF92-DDEF6E19A63B}</UniqueIdentifier>
+      <UniqueIdentifier>{2D074717-C426-409B-9F5A-6F569FFC2A65}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Myinventory\Public\InteractableInterface.h">
       <Filter>Source\Myinventory\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Myinventory\Public\Struct.h">
+      <Filter>Source\Myinventory\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\Myinventory\Public\Actors">
-      <UniqueIdentifier>{0C70357C-7855-4880-9904-A833C0D24056}</UniqueIdentifier>
+      <UniqueIdentifier>{22C85FB2-2593-450A-B6D6-6A69E8E7E85F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Myinventory\Public\Actors\Item.h">
       <Filter>Source\Myinventory\Public\Actors</Filter>
     </ClInclude>
     <Filter Include="Source\Myinventory\Private">
-      <UniqueIdentifier>{7B8E0E45-9009-427D-A163-6AAB5E671F6A}</UniqueIdentifier>
+      <UniqueIdentifier>{94639F92-F224-41A5-B5EA-667B9F1C36AB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Myinventory\Private\InteractableInterface.cpp">
       <Filter>Source\Myinventory\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Myinventory\Private\Actors">
-      <UniqueIdentifier>{C09AFB10-60E9-415E-A985-473BF8CDF9CC}</UniqueIdentifier>
+      <UniqueIdentifier>{CC8D28A4-4F3A-4E58-9409-B894159B4EF3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Myinventory\Private\Actors\Item.cpp">
       <Filter>Source\Myinventory\Private\Actors</Filter>

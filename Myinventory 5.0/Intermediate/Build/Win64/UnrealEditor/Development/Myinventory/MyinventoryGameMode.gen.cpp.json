@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myinventory\\myinventorygamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\myinventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\myinventory\\definitions.myinventory.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\source\\myinventory\\myinventorygamemode.h",
+            "d:\\unreal eninge\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\unreal eninge\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\unreal eninge\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\unreal eninge\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myinventory\\myinventorygamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

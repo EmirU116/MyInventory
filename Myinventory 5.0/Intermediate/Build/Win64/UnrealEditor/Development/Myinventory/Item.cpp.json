@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\source\\myinventory\\private\\actors\\item.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\myinventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\development\\myinventory\\definitions.myinventory.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\source\\myinventory\\public\\actors\\item.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\source\\myinventory\\public\\struct.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myinventory\\struct.generated.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\source\\myinventory\\public\\interactableinterface.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myinventory\\interactableinterface.generated.h",
+            "d:\\unrealproject\\schoolproject\\inventoryprojectc++\\myinventory\\myinventory\\myinventory 5.0\\intermediate\\build\\win64\\unrealeditor\\inc\\myinventory\\item.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

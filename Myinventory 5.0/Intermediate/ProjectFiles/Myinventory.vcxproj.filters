@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Myinventory.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Myinventory.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyinventoryEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Myinventory">
+      <UniqueIdentifier>{694DA15E-14A1-3C5D-84D7-61C985B7BAE8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Myinventory\Myinventory.Build.cs">
+      <Filter>Source\Myinventory</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Myinventory\Myinventory.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\Myinventory.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Myinventory\MyinventoryCharacter.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\MyinventoryCharacter.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Myinventory\MyinventoryGameMode.cpp">
+      <Filter>Source\Myinventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Myinventory\MyinventoryGameMode.h">
+      <Filter>Source\Myinventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\Myinventory\Public">
+      <UniqueIdentifier>{C696F17A-0982-3C12-8C6C-F694EC332C2A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Myinventory\Public\InteractableInterface.h">
+      <Filter>Source\Myinventory\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Myinventory\Public\Struct.h">
+      <Filter>Source\Myinventory\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Myinventory\Public\Actors">
+      <UniqueIdentifier>{65EAA561-DE9C-3BE5-AF76-2697F45B3A4A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Myinventory\Public\Actors\Item.h">
+      <Filter>Source\Myinventory\Public\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\Myinventory\Private">
+      <UniqueIdentifier>{69067C34-33E5-3AE4-AFA0-06C1EA648A92}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Myinventory\Private\InteractableInterface.cpp">
+      <Filter>Source\Myinventory\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Myinventory\Private\Actors">
+      <UniqueIdentifier>{32583037-8AFA-3882-8287-A2A252197A3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Myinventory\Private\Actors\Item.cpp">
+      <Filter>Source\Myinventory\Private\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
