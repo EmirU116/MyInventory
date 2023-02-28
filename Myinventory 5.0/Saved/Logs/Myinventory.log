@@ -1135,3 +1135,146 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.28-21.34.40:693][192]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem4AFFE2F149997F783659EB85027B175B.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
 [2023.02.28-21.34.40:710][192]AssetCheck: New page: Asset Save: UI_InventoryItem
 [2023.02.28-21.34.40:710][192]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.35.24:188][649]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.35.24:203][649]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-21.35.24:211][649]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-21.35.24:235][649]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.02.28-21.35.24:865][649]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.28-21.35.24:865][649]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.28-21.35.26:190][649]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.02.28-21.35.58:513][397]LogSlate: Took 0.012482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.02.28-21.36.29:175][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.28-21.36.29:200][789]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.103
+[2023.02.28-21.36.29:266][789]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widget/UI_InventoryItem] ([2] browsable assets)...
+[2023.02.28-21.36.29:273][789]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem]
+[2023.02.28-21.36.29:273][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widget/UI_InventoryItem]
+[2023.02.28-21.36.29:312][789]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widget/UI_InventoryItem_Auto1
+[2023.02.28-21.36.29:312][789]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem_Auto1AECEF5AE42CD28DA61FA1EA4DEDA5C47.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/Autosaves/Game/Widget/UI_InventoryItem_Auto1.uasset'
+[2023.02.28-21.36.29:314][789]LogFileHelpers: Auto-saving content packages took 0.114
+[2023.02.28-21.37.21:888][416]BlueprintLog: New page: Compile UI_InventoryItem
+[2023.02.28-21.37.22:036][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.02.28-21.37.22:977][445]LogSavePackage: Moving output files for package: /Game/Widget/UI_InventoryItem
+[2023.02.28-21.37.22:979][445]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem49D85E65404FB6CC34E183B744DB0A01.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
+[2023.02.28-21.37.22:996][445]AssetCheck: New page: Asset Save: UI_InventoryItem
+[2023.02.28-21.37.22:996][445]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.37.24:288][498]LogSlate: Window 'UI_InventoryItem' being destroyed
+[2023.02.28-21.37.27:064][663]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.28-21.37.27:064][663]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.28-21.37.41:111][359]LogDerivedDataCache: C:/Users/acer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.585 and deleted 0 file(s) with total size 0 MiB.
+[2023.02.28-21.38.11:819][783]LogEditorTransaction: Undo Resize Widget
+[2023.02.28-21.38.12:440][795]LogEditorTransaction: Undo Changed Anchors
+[2023.02.28-21.38.13:692][866]LogEditorTransaction: Undo Edit Bottom
+[2023.02.28-21.38.14:394][904]LogEditorTransaction: Undo Edit Right
+[2023.02.28-21.40.05:703][427]BlueprintLog: New page: Compile UI_InventoryItem
+[2023.02.28-21.40.05:761][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.02.28-21.40.06:226][443]LogSavePackage: Moving output files for package: /Game/Widget/UI_InventoryItem
+[2023.02.28-21.40.06:227][443]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem286FE2B2466CBC3E93BBDBADAE389D85.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
+[2023.02.28-21.40.06:246][443]AssetCheck: New page: Asset Save: UI_InventoryItem
+[2023.02.28-21.40.06:246][443]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.41.34:520][684]BlueprintLog: New page: Compile UI_InventoryItem
+[2023.02.28-21.41.34:577][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.02.28-21.41.35:429][728]LogSavePackage: Moving output files for package: /Game/Widget/UI_InventoryItem
+[2023.02.28-21.41.35:431][728]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem8DC7119F4D65439A76BEEB8D9BD000CA.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
+[2023.02.28-21.41.35:448][728]AssetCheck: New page: Asset Save: UI_InventoryItem
+[2023.02.28-21.41.35:448][728]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.41.51:203][636]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Item.BP_Item
+[2023.02.28-21.41.51:203][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-21.42.56:440][307]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.02.28-21.42.56:440][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-21.42.56:841][307]LogSlate: Window 'Open Asset' being destroyed
+[2023.02.28-21.42.58:789][395]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.28-21.43.01:553][549]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.02.28-21.43.01:732][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.02.28-21.43.02:050][551]LogSavePackage: Moving output files for package: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter
+[2023.02.28-21.43.02:051][551]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/ThirdPersonCharacter442355BF4901B9A85BB88883B158E375.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2023.02.28-21.43.02:072][551]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2023.02.28-21.43.02:072][551]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.02.28-21.43.05:086][685]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.02.28-21.43.05:171][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.02.28-21.43.05:451][691]LogSavePackage: Moving output files for package: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter
+[2023.02.28-21.43.05:453][691]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/ThirdPersonCharacter48FA991A403CCDC798EC269D4568572F.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2023.02.28-21.43.05:471][691]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2023.02.28-21.43.05:471][691]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.02.28-21.43.28:503][185]BlueprintLog: New page: Compile UI_InventoryItem
+[2023.02.28-21.43.28:576][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.02.28-21.43.28:950][197]LogSavePackage: Moving output files for package: /Game/Widget/UI_InventoryItem
+[2023.02.28-21.43.28:952][197]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_InventoryItem2F80EF8443717BADA7BF4E8F5E146856.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_InventoryItem.uasset'
+[2023.02.28-21.43.28:970][197]AssetCheck: New page: Asset Save: UI_InventoryItem
+[2023.02.28-21.43.28:970][197]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_InventoryItem.UI_InventoryItem
+[2023.02.28-21.44.43:510][510]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.28-21.45.10:905][970]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.02.28-21.45.11:058][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.02.28-21.45.11:628][994]LogSavePackage: Moving output files for package: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter
+[2023.02.28-21.45.11:629][994]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/ThirdPersonCharacter1620A0444EC5576AB13D9BBBE5C54F2A.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2023.02.28-21.45.11:651][994]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2023.02.28-21.45.11:651][994]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.02.28-21.45.16:501][171]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-21.45.16:553][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-21.45.16:553][171]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 28, 2023, 11:45:16 PM)
+[2023.02.28-21.45.16:578][171]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.28-21.45.16:605][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027471s)
+[2023.02.28-21.45.16:605][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027576s)
+[2023.02.28-21.45.16:605][171]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-21.45.16:605][171]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-21.45.16:606][171]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.02.28-21.45.16:606][171]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2023.02.28-21.45.16:655][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.02.28-21.45.16:657][171]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-21.45.16:657][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-21.45.16:657][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-21.45.16:657][171]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-21.45.16:657][171]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-21.45.16:657][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-21.45.16:735][171]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-21.45.16:766][171]LogAudioMixer: Display: Using Audio Hardware Device Hörlurar (Galaxy Buds (A71C))
+[2023.02.28-21.45.16:767][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-21.45.16:767][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-21.45.16:767][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-21.45.16:767][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.02.28-21.45.16:767][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.02.28-21.45.16:769][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.02.28-21.45.16:769][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.02.28-21.45.16:769][171]LogInit: FAudioDevice initialized.
+[2023.02.28-21.45.16:769][171]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2023.02.28-21.45.16:784][171]LogLoad: Game class is 'MyinventoryGameMode'
+[2023.02.28-21.45.16:786][171]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.02.28-22.45.16
+[2023.02.28-21.45.16:786][171]LogWorld: Bringing up level for play took: 0.001717
+[2023.02.28-21.45.16:788][171]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.02.28-21.45.16:830][171]PIE: Server logged in
+[2023.02.28-21.45.16:831][171]PIE: Play in editor total start time 0.278 seconds.
+[2023.02.28-21.45.18:628][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-21.45.18:628][276]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.02.28-21.45.18:628][276]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-21.45.18:629][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-21.45.18:644][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-21.45.18:649][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-21.45.18:696][276]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.28-21.45.18:696][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.28-21.45.18:698][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.28-21.45.18:702][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-21.45.18:705][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.02.28-21.45.18:759][277]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.02.28-21.45.29:909][484]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.02.28-21.45.29:925][484]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.02.28-21.45.29:931][484]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.02.28-21.45.29:943][485]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.02.28-21.45.41:687][957]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_Inventory
+[2023.02.28-21.45.41:693][957]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.02.28-21.45.47:822][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.02.28-21.45.48:965][120]LogSlate: Window 'Save Content' being destroyed
+[2023.02.28-21.45.49:124][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.28-21.45.49:384][120]LogSavePackage: Moving output files for package: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2023.02.28-21.45.49:385][120]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/ThirdPersonExampleMap38B6E81648BCC893706C879D0BC71E2C.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2023.02.28-21.45.49:483][120]LogFileHelpers: No new changes to save!
+[2023.02.28-21.45.49:483][120]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.419
+[2023.02.28-21.45.49:511][120]LogSavePackage: Moving output files for package: /Game/Widget/UI_Inventory
+[2023.02.28-21.45.49:511][120]LogSavePackage: Moving '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Saved/UI_Inventory23AB3ACB423D3010A5806DA2F851DDFE.tmp' to '../../../../../UnrealProject/SchoolProject/InventoryProjectC++/MyInventory/MyInventory/Myinventory 5.0/Content/Widget/UI_Inventory.uasset'
+[2023.02.28-21.45.49:528][120]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.28-21.45.49:528][120]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.02.28-21.45.49:529][120]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widget/UI_Inventory.UI_Inventory
