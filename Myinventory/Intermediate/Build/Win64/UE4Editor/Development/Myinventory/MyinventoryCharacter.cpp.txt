@@ -17,6 +17,8 @@ D:\Unreal Eninge\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestu
 D:\Unreal Eninge\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
 D:\Unreal Eninge\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/Actors/Item.h
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/Struct.h
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\Struct.generated.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/InteractableInterface.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\InteractableInterface.generated.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\Item.generated.h

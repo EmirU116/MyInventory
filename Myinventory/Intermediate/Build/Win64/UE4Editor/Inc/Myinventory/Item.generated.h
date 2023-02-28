@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYINVENTORY_Item_generated_h
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_SPARSE_DATA
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_RPC_WRAPPERS
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_INCLASS_NO_PURE_DECLS \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_SPARSE_DATA
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_RPC_WRAPPERS
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAItem(); \
 	friend struct Z_Construct_UClass_AItem_Statics; \
@@ -26,7 +26,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AItem*>(this); }
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_INCLASS \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAItem(); \
 	friend struct Z_Construct_UClass_AItem_Statics; \
@@ -36,7 +36,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AItem*>(this); }
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_STANDARD_CONSTRUCTORS \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AItem(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AItem) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_ENHANCED_CONSTRUCTORS \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AItem(AItem&&); \
@@ -60,31 +60,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AItem)
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ItemMesh() { return STRUCT_OFFSET(AItem, ItemMesh); }
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ItemMesh() { return STRUCT_OFFSET(AItem, ItemMesh); } \
+	FORCEINLINE static uint32 __PPO__ItemData() { return STRUCT_OFFSET(AItem, ItemData); }
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_10_PROLOG
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_GENERATED_BODY_LEGACY \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_11_PROLOG
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_PRIVATE_PROPERTY_OFFSET \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_SPARSE_DATA \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_RPC_WRAPPERS \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_INCLASS \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_STANDARD_CONSTRUCTORS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_PRIVATE_PROPERTY_OFFSET \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_SPARSE_DATA \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_RPC_WRAPPERS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_INCLASS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Myinventory_Source_Myinventory_Public_Actors_Item_h_13_GENERATED_BODY \
+#define Myinventory_Source_Myinventory_Public_Actors_Item_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_PRIVATE_PROPERTY_OFFSET \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_SPARSE_DATA \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_INCLASS_NO_PURE_DECLS \
-	Myinventory_Source_Myinventory_Public_Actors_Item_h_13_ENHANCED_CONSTRUCTORS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_PRIVATE_PROPERTY_OFFSET \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_SPARSE_DATA \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_INCLASS_NO_PURE_DECLS \
+	Myinventory_Source_Myinventory_Public_Actors_Item_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

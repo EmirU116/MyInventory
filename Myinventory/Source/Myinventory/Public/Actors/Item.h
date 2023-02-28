@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Myinventory/Public/Struct.h"
 #include "Myinventory/Public/InteractableInterface.h"
 #include "Item.generated.h"
 
@@ -21,6 +22,9 @@ protected:
 	//Created basic item mesh
 	UPROPERTY(EditDefaultsOnly, Category="Mesh")
 	class UStaticMeshComponent* ItemMesh;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Mesh")
+	FItemData ItemData;
 	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

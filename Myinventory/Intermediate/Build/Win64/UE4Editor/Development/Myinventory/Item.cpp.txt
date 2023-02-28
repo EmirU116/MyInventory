@@ -1,5 +1,7 @@
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Development\Myinventory\Definitions.Myinventory.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/Actors/Item.h
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/Struct.h
+D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\Struct.generated.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory/Public/InteractableInterface.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\InteractableInterface.generated.h
 D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory\Item.generated.h
