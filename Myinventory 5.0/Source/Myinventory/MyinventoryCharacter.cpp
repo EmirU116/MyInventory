@@ -81,7 +81,7 @@ void AMyinventoryCharacter::Interact()
 	{
 		if (IInteractableInterface* Interface = Cast<IInteractableInterface>(hitResult.GetActor()))
 		{
-			Interface->Interact();
+			Interface->Interact(this);
 		}
 	}
 }

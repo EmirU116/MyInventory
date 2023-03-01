@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYINVENTORY_Struct_generated_h
 
-#define FID_Myinventory_5_0_Source_Myinventory_Public_Struct_h_6_GENERATED_BODY \
+#define FID_Myinventory_5_0_Source_Myinventory_Public_Struct_h_8_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FItemData_Statics; \
 	MYINVENTORY_API static class UScriptStruct* StaticStruct();
 

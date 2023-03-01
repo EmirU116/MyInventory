@@ -22,8 +22,12 @@ void AItem::BeginPlay()
 	
 }
 
-void AItem::Interact()
+void AItem::Interact(class AMyinventoryCharacter* Character)
 {
+	if (Character)
+	{
+		Character -> AddItemToInventory(ItemData);
+	}
 	Destroy();
 }
 

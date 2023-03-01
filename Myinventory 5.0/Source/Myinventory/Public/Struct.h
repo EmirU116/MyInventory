@@ -1,4 +1,6 @@
-﻿#include "Struct.generated.h"
+﻿#pragma once
+
+#include "Struct.generated.h"
 
 USTRUCT(BlueprintType)
 struct FItemData
