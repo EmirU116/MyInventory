@@ -2,6 +2,7 @@
 
 #include "MyinventoryCharacter.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
+#include "Blueprint/UserWidget.h"
 #include "Myinventory/Public/Actors/Item.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -67,6 +68,9 @@ void AMyinventoryCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("TurnRate", this, &AMyinventoryCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AMyinventoryCharacter::LookUpAtRate);
+
+	//interaction with inventory
+	PlayerInputComponent->BindAction("ToggleInventory", IE_Pressed, this, &AMyinventoryCharacter::ToggleInventory);
 }
 void AMyinventoryCharacter::Interact()
 {
@@ -125,5 +129,22 @@ void AMyinventoryCharacter::MoveRight(float Value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
+	}
+}
+
+void AMyinventoryCharacter::ToggleInventory()
+{
+	bool isInventoryOpen = true;
+
+	if(isInventoryOpen && WidgetClass)
+	{
+		UI_WCpp = CreateWidget(GetWorld(), WidgetClass);
+		UI_WCpp -> AddToViewport();
+		isInventoryOpen = false;
+	}
+	else
+	{
+		UI_WCpp-> RemoveFromParent();
+		isInventoryOpen = true;
 	}
 }

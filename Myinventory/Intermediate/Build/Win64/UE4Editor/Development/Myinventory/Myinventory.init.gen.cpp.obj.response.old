@@ -32,16 +32,15 @@
 /wd4244
 /wd4838
 /I .
-/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory
-/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source
+/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -233,6 +232,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Intermediate\Build\Win64\UE4Editor\Inc\Myinventory
+/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source
+/I D:\UnrealProject\SchoolProject\InventoryProjectC++\MyInventory\MyInventory\Myinventory\Source\Myinventory\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh

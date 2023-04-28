@@ -21,6 +21,16 @@ class AMyinventoryCharacter : public ACharacter
 public:
 	AMyinventoryCharacter();
 
+	// Method for inventory
+	void ToggleInventory();
+
+	// UI reference 
+	UPROPERTY(EditDefaultsOnly, Category="cpp")
+	TSubclassOf<UUserWidget> WidgetClass;
+
+	UPROPERTY(EditInstanceOnly, Category="cpp")
+	UUserWidget* UI_WCpp;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
